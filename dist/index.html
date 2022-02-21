@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple chat app</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>simple chat app with firebase</h1>
+    <form id="login" style="border: 3px solid black; width: fit-content; padding: 0 10px 10px 10px">
+      <h3>login or signup</h3>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" />
+      </div>
+      <div style="margin: 10px 0">
+        <label for="password">Password:</label>
+        <input type="password" name="password" />
+      </div>
+      <div>
+        <button type="submit" id="signup-btn">sign up</button>
+        <button type="submit" id="login-btn">login</button>
+      </div>
+    </form>
+    <section id="chat" style="display: none">
+      <div id="chat-table"></div>
+      <div class="slot"></div>
+      <div class="chat-control">
+        <form id="text-box">
+          <input type="text" name="text" required />
+          <button type="submit" id="send-btn">send</button>
+          <button id="logout">logout</button>
+        </form>
+        <p class="username"></p>
+      </div>
+    </section>
+  </body>
+</html>

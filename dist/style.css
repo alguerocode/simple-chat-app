@@ -1,0 +1,40 @@
+/* .slot {
+    padding: 70px 0;
+    display:block;
+    min-height: 41rem;
+    width:100%;
+} */
+.chat-control {
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 100;
+  background: #efefef;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  background-color: #efefef;
+  width: fit-content;
+  padding: 0px 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  height: fit-content;
+  clear: right;
+}
+.message div {
+  margin: 0;
+  padding: 0;
+}
+.message p {
+  padding-top: 3px;
+  margin: 0px;
+}
+.current-user-message {
+  float: right;
+}

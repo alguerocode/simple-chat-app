@@ -22,13 +22,13 @@ import {
 import { getLoginFormData, toggleChatAndLoginFormVisability } from "./utils";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBq7OALHL48Waq_YjNCkI_gyl7gb0OmT9g",
-  authDomain: "starter-project-2072c.firebaseapp.com",
-  databaseURL: "https://starter-project-2072c-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "starter-project-2072c",
-  storageBucket: "starter-project-2072c.appspot.com",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
   messagingSenderId: "961282809733",
-  appId: "1:961282809733:web:9e8e31434374f97bd8eeec",
+  appId: "",
 };
 
 
